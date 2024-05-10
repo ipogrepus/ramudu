@@ -2,7 +2,7 @@
 -  hosts: all
    become: yes
    tasks:
-   -  name: install webser on redhat nodes
+   -  name: install webser on RedHat nodes
       service: 
           name: httpd
           state: started
