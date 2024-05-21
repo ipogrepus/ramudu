@@ -1,0 +1,13 @@
+---
+-  hosts: 172.31.45.149
+   become: yes
+   tasks:
+   -   name: install git
+       dnf:
+         name: git
+         state: present
+
+   -    name: install tree
+        dnf:
+           name: tree
+           state: present
