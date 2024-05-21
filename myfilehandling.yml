@@ -9,5 +9,5 @@
          state: present
    -   name: copy text file
        copy:
-          src:
+          src: mytestfile
           dest: /home/gopi/myfirstfile
