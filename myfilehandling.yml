@@ -7,3 +7,7 @@
        dnf:
          name: httpd
          state: present
+   -   name: copy text file
+       copy:
+          src:
+          dest: /home/gopi/myfirstfile
